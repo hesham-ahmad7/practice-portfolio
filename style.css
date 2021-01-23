@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* start hero section */
+section{
+    height: 500px;
+    padding-bottom: 80px;
+}
+
+.hero-section{
+    background-image: url('image/hero-section.png');
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+    color: #696969;
+    margin-bottom: 30px;
+}
+.half-width span{
+    color: #FFA500;
+}
+
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 36px;
+    border-radius: 5px;   
+}
+
+.half-width img{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.about-section{
+    background-image: url('image/about-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experince-section{
+    background-image: url('image/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#exp{
+    text-align: center;
+}
+
+.experince-section div{
+    box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.6);
+    height: 80%;
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+.experince-section div:hover{
+    box-shadow: 5px 5px 40px gray;
+}
+
+.experince-section h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.experince-section h3{
+    color: #ffa500;
+}
+
+/* .position{
+    font-size: 36px;
+    font-weight: 600;
+} */
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+#front-end{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #696969;
+    font-weight: 600;
+}
